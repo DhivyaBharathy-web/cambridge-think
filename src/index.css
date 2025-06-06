@@ -1,0 +1,128 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 220 30% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 30% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 30% 15%;
+
+    --primary: 237 84% 60%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 237 15% 96%;
+    --secondary-foreground: 220 30% 15%;
+
+    --muted: 237 15% 96%;
+    --muted-foreground: 220 20% 50%;
+
+    --accent: 262 75% 65%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 237 20% 90%;
+    --input: 237 20% 90%;
+    --ring: 237 84% 60%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 220 30% 15%;
+    --sidebar-primary: 237 84% 60%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 237 15% 96%;
+    --sidebar-accent-foreground: 220 30% 15%;
+    --sidebar-border: 237 20% 90%;
+    --sidebar-ring: 237 84% 60%;
+  }
+
+  .dark {
+    --background: 220 30% 8%;
+    --foreground: 210 40% 98%;
+
+    --card: 220 30% 10%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 220 30% 10%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 237 84% 65%;
+    --primary-foreground: 220 30% 8%;
+
+    --secondary: 220 30% 15%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 220 30% 15%;
+    --muted-foreground: 220 20% 65%;
+
+    --accent: 262 75% 70%;
+    --accent-foreground: 220 30% 8%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 30% 18%;
+    --input: 220 30% 18%;
+    --ring: 237 84% 65%;
+    
+    --sidebar-background: 220 30% 5%;
+    --sidebar-foreground: 210 40% 98%;
+    --sidebar-primary: 237 84% 65%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 220 30% 12%;
+    --sidebar-accent-foreground: 210 40% 98%;
+    --sidebar-border: 220 30% 15%;
+    --sidebar-ring: 237 84% 65%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+/* Professional typography and spacing */
+@layer components {
+  .section-padding {
+    @apply py-20 lg:py-28;
+  }
+  
+  .container-padding {
+    @apply px-6 lg:px-8;
+  }
+  
+  .heading-1 {
+    @apply text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight;
+  }
+  
+  .heading-2 {
+    @apply text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight;
+  }
+  
+  .heading-3 {
+    @apply text-2xl md:text-3xl font-semibold tracking-tight;
+  }
+  
+  .body-large {
+    @apply text-lg md:text-xl leading-relaxed;
+  }
+  
+  .body-text {
+    @apply text-base leading-relaxed;
+  }
+}
