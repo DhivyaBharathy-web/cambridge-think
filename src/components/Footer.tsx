@@ -1,4 +1,3 @@
-
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 
@@ -7,7 +6,6 @@ const Footer = () => {
     { label: 'Home', href: '#' },
     { label: 'About', href: '#about' },
     { label: 'Roadmap', href: '#roadmap' },
-    { label: 'Projects', href: '#projects' },
     { label: 'Blog', href: '#blog' },
     { label: 'Get Involved', href: '#get-involved' }
   ];

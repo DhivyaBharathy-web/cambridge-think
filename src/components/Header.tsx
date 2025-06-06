@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -9,7 +8,6 @@ const Header = () => {
   const navItems = [
     { label: 'About', href: '#about' },
     { label: 'Roadmap', href: '#roadmap' },
-    { label: 'Projects', href: '#projects' },
     { label: 'Get Involved', href: '#get-involved' },
     { label: 'Blog', href: '#blog' },
     { label: 'Contact', href: '#contact' }

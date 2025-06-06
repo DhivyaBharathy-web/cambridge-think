@@ -1,4 +1,3 @@
-
 const Vision = () => {
   return (
     <section id="vision" className="py-24 bg-white">
@@ -8,7 +7,7 @@ const Vision = () => {
             <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
               Our Vision
             </h2>
-            <div className="w-24 h-1 bg-blue-600 mx-auto"></div>
+            <div className="w-24 h-1 bg-primary mx-auto"></div>
           </div>
           
           <div className="grid md:grid-cols-1 gap-12">
@@ -37,24 +36,24 @@ const Vision = () => {
           {/* Key Focus Areas */}
           <div className="mt-16 grid md:grid-cols-3 gap-8">
             <div className="text-center p-6">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <div className="w-8 h-8 bg-blue-600 rounded-full"></div>
+              <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-8 h-8 bg-primary rounded-full"></div>
               </div>
               <h3 className="text-xl font-semibold text-slate-900 mb-3">Strategic Leadership</h3>
               <p className="text-slate-600">Unifying academia, government, and industry under a shared vision for growth.</p>
             </div>
             
             <div className="text-center p-6">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <div className="w-8 h-8 bg-blue-600 rounded-full"></div>
+              <div className="w-16 h-16 bg-accent/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-8 h-8 bg-accent rounded-full"></div>
               </div>
               <h3 className="text-xl font-semibold text-slate-900 mb-3">Innovation Excellence</h3>
               <p className="text-slate-600">Leveraging deeptech expertise to drive national economic transformation.</p>
             </div>
             
             <div className="text-center p-6">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <div className="w-8 h-8 bg-blue-600 rounded-full"></div>
+              <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-8 h-8 bg-primary rounded-full"></div>
               </div>
               <h3 className="text-xl font-semibold text-slate-900 mb-3">Global Impact</h3>
               <p className="text-slate-600">Positioning Britain as the world's leading innovation and entrepreneurship hub.</p>

@@ -1,4 +1,3 @@
-
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -90,7 +89,7 @@ const Contact = () => {
                 <Input placeholder="Email Address" type="email" />
                 <Input placeholder="Subject" />
                 <Textarea placeholder="Your Message" rows={5} />
-                <Button className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700">
+                <Button className="w-full bg-gradient-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90 text-primary-foreground">
                   Send Message
                 </Button>
               </CardContent>

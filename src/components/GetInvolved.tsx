@@ -7,22 +7,22 @@ const GetInvolved = () => {
     {
       title: "Think Tank Contributor",
       description: "Join our community of researchers and policy makers to create actionable insights.",
-      action: "Apply Now"
+      action: "Coming Soon"
     },
     {
       title: "Launch a Pilot Project", 
       description: "Propose and lead an innovative project that aligns with our roadmap initiatives.",
-      action: "Submit Proposal"
+      action: "Coming Soon"
     },
     {
       title: "Smart Fund Investment",
       description: "Fund or co-invest in our £100M Smart Fund supporting early-stage DeepTech innovation.",
-      action: "Get Details"
+      action: "Coming Soon"
     },
     {
       title: "Host Cambridge Forum",
       description: "Sponsor or host one of our monthly public forums and innovation roundtables.",
-      action: "Learn More"
+      action: "Coming Soon"
     },
     {
       title: "DeepTech Fellowship",
