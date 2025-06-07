@@ -6,6 +6,7 @@ import GetInvolved from '@/components/GetInvolved';
 import Blog from '@/components/Blog';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
+import Team from '@/components/Team';
 
 const Index = () => {
   return (
@@ -13,6 +14,7 @@ const Index = () => {
       <Header />
       <Hero />
       <About />
+      <Team />
       <Roadmap />
       <GetInvolved />
       <Blog />
